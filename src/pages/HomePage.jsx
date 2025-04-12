@@ -1,10 +1,10 @@
 import React from "react";
-import { Heart, HeartPulse, Search, Soup } from "lucide-react";
+import { Search } from "lucide-react";
 import RecipeCard from "../components/RecipeCard";
 
 const HomePage = () => {
   return (
-    <div className="bg-[#faf9fb] p-10 flex-1">
+    <div className="bg-[#fbfbf9] p-10 flex-1">
       <div className="max-w-screen-lg mx-auto">
         <form>
           <label className="input shadow-md flex items-center gap-2">
